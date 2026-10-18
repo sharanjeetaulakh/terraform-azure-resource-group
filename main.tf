@@ -1,4 +1,4 @@
-data "azurerm_resource_group" "existing" {
+data "azurerm_resource_group" "resource_group" {
   name = "rg-lms-idn-dev-01"
 }
 
